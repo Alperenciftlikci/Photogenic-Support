@@ -17,7 +17,7 @@ Photogenic is an AI-powered photo editor with 23 powerful tools for transforming
 This website is hosted on GitHub Pages.
 
 ## 📧 Contact
-For support: ciftlikcialperen@gmail.com
+For support: photogenicai.app@gmail.com
 
 ---
 
