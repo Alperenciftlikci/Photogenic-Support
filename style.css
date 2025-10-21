@@ -47,6 +47,7 @@ header h1 a {
 .tagline {
     color: #666;
     font-size: 1.1rem;
+    text-align: center;
 }
 
 /* Main Content */
