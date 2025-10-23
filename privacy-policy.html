@@ -26,14 +26,14 @@
         <section class="policy">
             <div class="container">
                 <h2>Privacy Policy</h2>
-                <p><strong>Last Updated: January 2025</strong></p>
+                <p><strong>Last Updated: October 23, 2025</strong></p>
 
                 <h3>1. Introduction</h3>
                 <p>Welcome to Photogenic ("we," "our," or "us"). We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we handle your information when you use our mobile application.</p>
 
                 <h3>2. Information We Collect</h3>
                 <h4>2.1 Photos and Images</h4>
-                <p>Photogenic processes photos locally on your device to apply AI transformations. We do NOT upload, store, or transmit your photos to our servers or any third parties.</p>
+                <p>Photogenic processes photos using AI to apply transformations. When you use our AI features, photos are sent to Google's Gemini AI API for processing and immediately returned to your device. We do NOT store your photos on our servers. See section 10 "Face Data Processing" for detailed information.</p>
 
                 <h4>2.2 Usage Data</h4>
                 <p>We may collect anonymous usage statistics to improve the app, including:</p>
@@ -60,11 +60,12 @@
                 </ul>
 
                 <h3>4. Data Storage and Processing</h3>
-                <p><strong>All photo processing happens locally on your device.</strong> Your photos never leave your device during AI transformations. Edited photos are stored in your device's local storage and your personal photo gallery at your discretion.</p>
+                <p>Photo processing is performed via Google's Gemini AI API. Photos are temporarily sent to Google's servers for AI transformation and immediately returned to your device. We do NOT store your photos on our servers. After processing, no copies are retained by us or Google. Edited photos are stored in your device's local storage at your discretion. See section 10 for complete details on face data processing.</p>
 
                 <h3>5. Third-Party Services</h3>
-                <p>Photogenic may use the following third-party services:</p>
+                <p>Photogenic uses the following third-party services:</p>
                 <ul>
+                    <li><strong>Google Gemini AI:</strong> For AI-powered image processing. Photos are processed according to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>. Images are not stored after processing completes.</li>
                     <li><strong>Apple App Store:</strong> For app distribution and in-app purchases, governed by Apple's privacy policy</li>
                     <li><strong>Analytics Services:</strong> We may use privacy-focused analytics tools to understand app usage patterns (no personal data collected)</li>
                 </ul>
@@ -86,14 +87,95 @@
                     <li>Contact us with privacy concerns</li>
                 </ul>
 
-                <h3>10. Changes to This Policy</h3>
+                <h3>10. Face Data Processing and Biometric Information</h3>
+
+                <h4>10.1 Overview</h4>
+                <p>Photogenic AI processes photos containing faces to apply AI-powered transformations such as retouching, aging effects, style transfers, avatar generation, and artistic renditions. This section explains how face data is handled.</p>
+
+                <h4>10.2 What Face Data We Process</h4>
+                <p>When you use our AI transformation features (Face Retouching, Age Transformation, Hair & Makeup, Celebrity Look, AI Avatars, Cartoon/Anime, etc.), the app temporarily processes visual information from photos you provide, which may include faces. We do NOT:</p>
+                <ul>
+                    <li>Perform facial recognition or identification</li>
+                    <li>Create biometric identifiers or profiles</li>
+                    <li>Store face data on our servers</li>
+                    <li>Use face data for any purpose other than your requested transformation</li>
+                </ul>
+
+                <h4>10.3 How Face Data Is Used</h4>
+                <p>Face data is used exclusively for:</p>
+                <ul>
+                    <li>Applying AI-powered visual transformations you request (retouching, aging effects, style transfers, etc.)</li>
+                    <li>Generating artistic renditions in various styles (avatars, cartoon, anime, celebrity look-alikes)</li>
+                    <li>Enhancing photo quality with makeup, hair styling, and other modifications</li>
+                </ul>
+                <p>All processing is performed in real-time via Google's Gemini AI API. No facial recognition, identification, or biometric analysis is performed.</p>
+
+                <h4>10.4 Data Flow and Third-Party Processing</h4>
+                <p>When you use a face transformation feature:</p>
+                <ol>
+                    <li><strong>On Your Device:</strong> You select or capture a photo containing a face</li>
+                    <li><strong>Transmission:</strong> The photo is securely sent via HTTPS to Google's Gemini AI API</li>
+                    <li><strong>Processing:</strong> Google's AI applies your requested transformation (typically 2-10 seconds)</li>
+                    <li><strong>Return:</strong> The processed image is immediately returned to your device</li>
+                    <li><strong>Deletion:</strong> No copies are retained by Photogenic AI or Google after processing completes</li>
+                </ol>
+
+                <h4>10.5 Google Gemini AI</h4>
+                <p>Face data is processed by Google Gemini AI according to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>:</p>
+                <ul>
+                    <li>Processing is temporary and immediate (not stored long-term)</li>
+                    <li>No facial recognition or biometric identification is performed</li>
+                    <li>Data is not used to train or improve AI models (per Google's API terms)</li>
+                    <li>Google does not retain image data after processing completes</li>
+                </ul>
+
+                <h4>10.6 Data Storage and Retention</h4>
+                <ul>
+                    <li><strong>During Processing:</strong> Face data exists briefly in device memory (seconds) and during API transmission</li>
+                    <li><strong>After Processing:</strong> Immediately deleted by both our app and Google's API - no retention</li>
+                    <li><strong>Our Servers:</strong> We do NOT have servers that store face data (0 seconds retention)</li>
+                    <li><strong>On Your Device:</strong> Original and processed photos remain under your exclusive control in your device's local storage</li>
+                    <li><strong>Cloud Backup:</strong> We do not back up or sync photos to any cloud service</li>
+                </ul>
+
+                <h4>10.7 Your Rights and Control</h4>
+                <p>You maintain complete control over your photos:</p>
+                <ul>
+                    <li>All photos remain in your device's local storage under your control</li>
+                    <li>You choose whether to save processed results to your photo library</li>
+                    <li>You can delete photos anytime from your device</li>
+                    <li>No account creation required - no user profiles or stored associations</li>
+                    <li>You can stop using face processing features at any time</li>
+                </ul>
+
+                <h4>10.8 Security Measures</h4>
+                <ul>
+                    <li>HTTPS encryption during transmission to Google's API</li>
+                    <li>Temporary processing only - no persistent storage</li>
+                    <li>No facial recognition database or biometric profile creation</li>
+                    <li>Processing occurs only when you explicitly request a transformation</li>
+                </ul>
+
+                <h4>10.9 No Sale or Sharing</h4>
+                <p>We do NOT:</p>
+                <ul>
+                    <li>Sell face data to any party</li>
+                    <li>Share face data with advertisers or data brokers</li>
+                    <li>Use face data for marketing or analytics</li>
+                    <li>Create cross-app user profiles</li>
+                </ul>
+
+                <h4>10.10 International Data Transfers</h4>
+                <p>When you use face processing features, your photo may be transmitted to Google's servers, which may be located in different countries. This transfer is necessary to provide the AI transformation service. Google processes data according to their privacy policy and applicable data protection laws.</p>
+
+                <h3>11. Changes to This Policy</h3>
                 <p>We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the "Last Updated" date.</p>
 
-                <h3>11. Contact Us</h3>
+                <h3>12. Contact Us</h3>
                 <p>If you have questions about this privacy policy, please contact us:</p>
                 <p><strong>Email:</strong> <a href="mailto:photogenicai.app@gmail.com">photogenicai.app@gmail.com</a></p>
 
-                <h3>12. Consent</h3>
+                <h3>13. Consent</h3>
                 <p>By using Photogenic, you consent to this privacy policy.</p>
             </div>
         </section>
